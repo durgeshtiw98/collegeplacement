@@ -1,0 +1,56 @@
+name: Placement reports
+on:
+  schedule:
+    - cron: '17 0 * * 5' # Thursday 6:17 PM CST, from Nov 5
+    - cron: '7 14 * * 5' # Friday 8:07 AM CST
+    - cron: '7 14 15 12 *' # Final submission, Dec 15
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: placement-reports
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Resolve Central date and project window
+        id: window
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, date
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo('America/Chicago'))
+          active = date(2026,11,5) <= now.date() <= date(2026,12,15)
+          publish = active and (now.weekday() == 4 or now.date() == date(2026,12,15))
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f'active={str(active).lower()}\npublish={str(publish).lower()}\ndate={now.date()}\n')
+          PY
+      - name: Validate and generate
+        if: steps.window.outputs.active == 'true'
+        run: |
+          python -m unittest discover -s tests
+          python src/pipeline.py --as-of '${{ steps.window.outputs.date }}'
+      - uses: actions/upload-artifact@v4
+        if: steps.window.outputs.active == 'true'
+        with:
+          name: placement-${{ steps.window.outputs.date }}
+          path: outputs/
+          retention-days: 60
+      - name: Publish Friday or final deliverables
+        if: steps.window.outputs.publish == 'true'
+        run: |
+          mkdir -p 'deliverables/${{ steps.window.outputs.date }}'
+          cp -r outputs/. 'deliverables/${{ steps.window.outputs.date }}/'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add deliverables/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish placement analysis ${{ steps.window.outputs.date }}'
+            git push
+          fi
