@@ -1,0 +1,103 @@
+student_id,department,eligible,applications,interviews,recommended_follow_up
+S0001,CSE,True,3,1,Review interview feedback and pending offer outcomes
+S0002,IT,True,3,2,Review interview feedback and pending offer outcomes
+S0004,ME,True,3,2,Review interview feedback and pending offer outcomes
+S0005,CE,True,4,2,Review interview feedback and pending offer outcomes
+S0006,CSE,True,6,5,Review interview feedback and pending offer outcomes
+S0007,IT,True,6,4,Review interview feedback and pending offer outcomes
+S0009,ME,True,3,2,Review interview feedback and pending offer outcomes
+S0011,CSE,False,5,4,Review academic support and company-specific eligibility
+S0013,ECE,True,5,2,Review interview feedback and pending offer outcomes
+S0015,CE,True,5,2,Review interview feedback and pending offer outcomes
+S0017,IT,True,4,1,Review interview feedback and pending offer outcomes
+S0020,CE,True,7,4,Review interview feedback and pending offer outcomes
+S0021,CSE,True,5,1,Review interview feedback and pending offer outcomes
+S0024,ME,True,1,0,"Review applications, skills evidence and shortlisting feedback"
+S0026,CSE,True,1,0,"Review applications, skills evidence and shortlisting feedback"
+S0028,ECE,True,4,2,Review interview feedback and pending offer outcomes
+S0031,CSE,,3,1,Verify academic records before assessing eligibility
+S0036,CSE,True,1,1,Review interview feedback and pending offer outcomes
+S0037,IT,False,3,2,Review academic support and company-specific eligibility
+S0039,ME,True,3,1,Review interview feedback and pending offer outcomes
+S0040,CE,True,4,3,Review interview feedback and pending offer outcomes
+S0041,CSE,True,2,0,"Review applications, skills evidence and shortlisting feedback"
+S0042,IT,False,1,0,Review academic support and company-specific eligibility
+S0043,ECE,,2,0,Verify academic records before assessing eligibility
+S0044,ME,True,4,0,"Review applications, skills evidence and shortlisting feedback"
+S0047,IT,False,4,2,Review academic support and company-specific eligibility
+S0048,ECE,False,5,2,Review academic support and company-specific eligibility
+S0049,ME,True,1,1,Review interview feedback and pending offer outcomes
+S0054,ME,True,2,1,Review interview feedback and pending offer outcomes
+S0055,CE,True,2,1,Review interview feedback and pending offer outcomes
+S0056,CSE,True,7,3,Review interview feedback and pending offer outcomes
+S0058,ECE,True,4,2,Review interview feedback and pending offer outcomes
+S0059,ME,True,3,1,Review interview feedback and pending offer outcomes
+S0061,CSE,True,5,3,Review interview feedback and pending offer outcomes
+S0063,ECE,True,2,1,Review interview feedback and pending offer outcomes
+S0066,CSE,False,3,1,Review academic support and company-specific eligibility
+S0067,IT,True,2,1,Review interview feedback and pending offer outcomes
+S0071,CSE,True,5,4,Review interview feedback and pending offer outcomes
+S0072,IT,True,2,0,"Review applications, skills evidence and shortlisting feedback"
+S0074,ME,False,2,0,Review academic support and company-specific eligibility
+S0075,CE,True,3,2,Review interview feedback and pending offer outcomes
+S0076,CSE,True,6,3,Review interview feedback and pending offer outcomes
+S0077,IT,False,5,2,Review academic support and company-specific eligibility
+S0079,ME,False,2,1,Review academic support and company-specific eligibility
+S0080,CE,False,6,1,Review academic support and company-specific eligibility
+S0081,CSE,True,2,0,"Review applications, skills evidence and shortlisting feedback"
+S0082,IT,True,6,1,Review interview feedback and pending offer outcomes
+S0083,ECE,True,5,3,Review interview feedback and pending offer outcomes
+S0084,ME,True,4,2,Review interview feedback and pending offer outcomes
+S0086,CSE,,2,0,Verify academic records before assessing eligibility
+S0088,ECE,True,3,1,Review interview feedback and pending offer outcomes
+S0089,ME,True,1,0,"Review applications, skills evidence and shortlisting feedback"
+S0093,ECE,,4,2,Verify academic records before assessing eligibility
+S0096,CSE,True,5,2,Review interview feedback and pending offer outcomes
+S0097,IT,True,3,1,Review interview feedback and pending offer outcomes
+S0102,IT,True,5,3,Review interview feedback and pending offer outcomes
+S0103,ECE,True,2,1,Review interview feedback and pending offer outcomes
+S0104,ME,True,2,2,Review interview feedback and pending offer outcomes
+S0105,CE,True,2,1,Review interview feedback and pending offer outcomes
+S0106,CSE,True,1,1,Review interview feedback and pending offer outcomes
+S0107,IT,True,4,2,Review interview feedback and pending offer outcomes
+S0110,CE,True,4,1,Review interview feedback and pending offer outcomes
+S0111,CSE,True,2,1,Review interview feedback and pending offer outcomes
+S0112,IT,True,4,1,Review interview feedback and pending offer outcomes
+S0114,ME,False,4,1,Review academic support and company-specific eligibility
+S0115,CE,True,3,0,"Review applications, skills evidence and shortlisting feedback"
+S0116,CSE,True,2,2,Review interview feedback and pending offer outcomes
+S0118,ECE,True,2,0,"Review applications, skills evidence and shortlisting feedback"
+S0119,ME,False,2,2,Review academic support and company-specific eligibility
+S0122,IT,True,2,0,"Review applications, skills evidence and shortlisting feedback"
+S0123,ECE,True,3,1,Review interview feedback and pending offer outcomes
+S0127,IT,True,2,2,Review interview feedback and pending offer outcomes
+S0131,CSE,True,5,2,Review interview feedback and pending offer outcomes
+S0132,IT,True,0,0,Contact student about participation and available roles
+S0134,ME,True,3,2,Review interview feedback and pending offer outcomes
+S0135,CE,False,2,1,Review academic support and company-specific eligibility
+S0136,CSE,True,4,1,Review interview feedback and pending offer outcomes
+S0137,IT,False,1,0,Review academic support and company-specific eligibility
+S0138,ECE,False,3,0,Review academic support and company-specific eligibility
+S0139,ME,True,3,2,Review interview feedback and pending offer outcomes
+S0142,IT,True,1,0,"Review applications, skills evidence and shortlisting feedback"
+S0143,ECE,True,2,2,Review interview feedback and pending offer outcomes
+S0144,ME,True,4,1,Review interview feedback and pending offer outcomes
+S0145,CE,True,4,0,"Review applications, skills evidence and shortlisting feedback"
+S0147,IT,True,0,0,Contact student about participation and available roles
+S0149,ME,True,2,1,Review interview feedback and pending offer outcomes
+S0151,CSE,True,4,2,Review interview feedback and pending offer outcomes
+S0152,IT,True,3,1,Review interview feedback and pending offer outcomes
+S0153,ECE,True,2,1,Review interview feedback and pending offer outcomes
+S0155,CE,,3,1,Verify academic records before assessing eligibility
+S0158,ECE,True,3,1,Review interview feedback and pending offer outcomes
+S0159,ME,False,5,3,Review academic support and company-specific eligibility
+S0161,CSE,True,4,0,"Review applications, skills evidence and shortlisting feedback"
+S0162,IT,True,0,0,Contact student about participation and available roles
+S0164,ME,True,1,0,"Review applications, skills evidence and shortlisting feedback"
+S0165,CE,True,7,2,Review interview feedback and pending offer outcomes
+S0167,IT,True,4,3,Review interview feedback and pending offer outcomes
+S0169,ME,False,2,1,Review academic support and company-specific eligibility
+S0172,IT,,2,1,Verify academic records before assessing eligibility
+S0173,ECE,False,2,2,Review academic support and company-specific eligibility
+S0176,CSE,False,4,1,Review academic support and company-specific eligibility
+S0180,CE,False,3,2,Review academic support and company-specific eligibility

@@ -1,0 +1,6 @@
+department,students,eligible_students,unknown_eligibility,placed_students,eligible_placed_students,unplaced_students,eligible_placement_pct,all_student_placement_pct
+CE,36,27,1,21,16,15,59.26,58.33
+CSE,36,26,2,12,7,24,26.92,33.33
+ECE,36,28,2,19,16,17,57.14,52.78
+IT,36,23,2,12,5,24,21.74,33.33
+ME,36,22,2,14,6,22,27.27,38.89

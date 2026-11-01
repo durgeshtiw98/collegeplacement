@@ -1,0 +1,7 @@
+company_id,company_name,industry,drives,applications,selected_applications,unique_applicants,unique_selected_students,unique_placed_students,selection_rate_pct,registrations,attended_registrations,unknown_attendance,participation_rate_pct,registered_student_selection_pct,accepted_joined_offers,known_salary_offers,salary_coverage_pct,average_ctc_inr,median_ctc_inr,highest_ctc_inr
+C01,Aster Systems,Technology,3,113,24,93,23,17,21.24,124,101,0,81.45,22.77,17,16,94.12,818750.0,675000.0,1500000.0
+C02,Bluebird Analytics,Technology,3,106,21,85,20,18,19.81,124,103,0,83.06,20.41,19,15,78.95,840000.0,750000.0,1400000.0
+C03,Cedar Engineering,Engineering,3,119,31,93,29,24,26.05,137,109,0,79.56,27.88,25,19,76.0,697368.42,600000.0,1350000.0
+C04,Delta Cloud,Technology,3,109,19,92,18,16,17.43,124,107,0,86.29,18.37,17,15,88.24,846666.67,850000.0,1400000.0
+C05,Elm Digital,Technology,3,98,14,81,14,12,14.29,114,91,0,79.82,15.38,12,8,66.67,987500.0,1050000.0,1250000.0
+C06,Finch Technologies,Technology,3,127,24,98,23,18,18.9,141,113,0,80.14,21.7,19,16,84.21,831250.0,750000.0,1500000.0
