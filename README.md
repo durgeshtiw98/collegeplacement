@@ -6,14 +6,15 @@ The supplied workbook contains **synthetic demonstration records**, not real col
 
 ## Run
 
-Python 3.11 or newer; no third-party packages required:
+Python 3.11 or newer; install python-docx to fill the supplied Word template:
 
 ```sh
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests
 python src/pipeline.py --as-of 2026-11-06
 ```
 
-Outputs: cleaned CSVs, validation findings, a Markdown report, metrics JSON, and a standalone HTML dashboard in `outputs/`. Reports are cumulative snapshots, not evidence of work on future dates. The initial dataset is static; trends require updated source files.
+Outputs: cleaned CSVs, validation findings, a template-based Word status report, a Markdown analysis report, metrics JSON, and a standalone HTML dashboard in `outputs/`. Reports are cumulative snapshots, not evidence of work on future dates. The initial dataset is static; trends require updated source files.
 
 ## Weekly delivery
 
@@ -21,4 +22,4 @@ GitHub Actions prepares a candidate Thursday at approximately 6 PM Central and p
 
 Generated deliverables are committed under `deliverables/YYYY-MM-DD/`; Thursday artifacts are available on the Actions run. Workflow permissions must allow `contents: write`. Manual dispatch is also available, restricted to the project window.
 
-See `docs/phase1.md` for requirements, definitions, limitations, and the phase plan. Reports currently use a standard Markdown format; a separate Word template has not been supplied. The dashboard covers analytics only; this repository does not implement the student/recruiter portal.
+See `docs/phase1.md` for requirements, definitions, limitations, and the phase plan. Word status reports use the supplied Weekly Status Report template, stored as base64 to preserve its original formatting. Template sample claims are replaced with actual work and pending-review status. The dashboard covers analytics only; this repository does not implement the student/recruiter portal.
