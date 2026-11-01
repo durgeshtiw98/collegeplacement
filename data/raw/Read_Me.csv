@@ -1,0 +1,8 @@
+Item,Details
+Purpose,Demonstration workbook for Durgesh Tiwari's Data Scientist task.
+Important,"All records are synthetic examples, not actual college or student records."
+Privacy,Student names are anonymized labels; no real contact details are included.
+How to use,"Use the Student_Data, Company_Data, Job_Postings, Applications, Placement_Drives, Offers, and Historical_Placements sheets."
+Suggested analysis,"Placement rates, application funnel, drive participation, company-wise selections, salary summaries, and unplaced student follow-up."
+Data caveat,Illustrative records may not reconcile across every sheet. Validate joins and document assumptions before reporting.
+Salary units,Salary packages are illustrative annual packages in INR lakhs per annum (LPA).
