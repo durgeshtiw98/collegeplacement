@@ -1,0 +1,477 @@
+{
+  "prepared_at": "2026-11-01T05:16:45+00:00",
+  "timestamp_policy": "Actual Git timestamps; assigned dates are labels only",
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "Project Understanding and Data Requirements",
+      "start": "2026-10-26",
+      "end": "2026-11-01",
+      "branch": "week-01_2026-10-26_to_2026-11-01",
+      "summary": "docs/weekly/week-01_2026-10-26_to_2026-11-01/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-10-26",
+          "task": "Review project workflow, portal modules and objectives",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-10-26.md",
+          "files": [
+            ".gitignore"
+          ]
+        },
+        {
+          "assigned_date": "2026-10-27",
+          "task": "Identify student, academic, application and placement data requirements",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-10-27.md",
+          "files": [
+            "src/placement/__init__.py",
+            "src/placement/schema.py"
+          ]
+        },
+        {
+          "assigned_date": "2026-10-28",
+          "task": "Identify recruiter, company and placement drive fields",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-10-28.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-10-29",
+          "task": "Define placement, participation and recruitment analytical questions",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-10-29.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-10-30",
+          "task": "Prepare data requirements and proposed KPIs",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-10-30.md",
+          "files": [
+            "docs/data-requirements.md"
+          ]
+        },
+        {
+          "assigned_date": "2026-10-31",
+          "task": "Map data sources and proposed structure",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-10-31.md",
+          "files": [
+            "docs/normalized-contract.md"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-01",
+          "task": "Review and finalize data analysis plan",
+          "note": "docs/weekly/week-01_2026-10-26_to_2026-11-01/2026-11-01.md",
+          "files": [
+            "docs/methodology.md"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "Data Collection, Cleaning, and Preparation",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "branch": "week-02_2026-11-02_to_2026-11-08",
+      "summary": "docs/weekly/week-02_2026-11-02_to_2026-11-08/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-11-02",
+          "task": "Organize student and academic datasets",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-02.md",
+          "files": [
+            "src/placement/demo.py",
+            "data/sample",
+            "data/templates"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-03",
+          "task": "Collect application and placement records",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-03.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-04",
+          "task": "Review recruiter, company and drive datasets",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-04.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-05",
+          "task": "Identify missing, duplicate and inconsistent records",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-05.md",
+          "files": [
+            "src/placement/prepare.py"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-06",
+          "task": "Clean and standardize available datasets",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-06.md",
+          "files": [
+            "src/placement/source_intake.py",
+            "requirements.txt",
+            "pyproject.toml"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-07",
+          "task": "Integrate relevant datasets and verify consistency",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-07.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-08",
+          "task": "Prepare analysis-ready data and preparation documentation",
+          "note": "docs/weekly/week-02_2026-11-02_to_2026-11-08/2026-11-08.md",
+          "files": [
+            "data/cleaned-supplied",
+            "reports/supplied/01-data-preparation.md",
+            "reports/supplied/quality.json"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "Exploratory Data Analysis",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "branch": "week-03_2026-11-09_to_2026-11-15",
+      "summary": "docs/weekly/week-03_2026-11-09_to_2026-11-15/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-11-09",
+          "task": "Analyze departments, academics and eligibility",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-09.md",
+          "files": [
+            "src/placement/kpis.py",
+            "src/placement/eda.py"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-10",
+          "task": "Examine qualifications, skills and placement outcomes",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-10.md",
+          "files": [
+            "reports/supplied/skills.csv"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-11",
+          "task": "Analyze applications and status distributions",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-11.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-12",
+          "task": "Study shortlist, interview, selection and placement counts",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-12.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-13",
+          "task": "Identify department and student-group placement patterns",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-13.md",
+          "files": [
+            "reports/supplied/cgpa_bands.csv"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-14",
+          "task": "Create initial charts and visual summaries",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-14.md",
+          "files": [
+            "reports/supplied/eda-visuals.svg"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-15",
+          "task": "Prepare exploratory analysis report",
+          "note": "docs/weekly/week-03_2026-11-09_to_2026-11-15/2026-11-15.md",
+          "files": [
+            "reports/supplied/02-exploratory-analysis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Recruiter and Placement Drive Analytics",
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "branch": "week-04_2026-11-16_to_2026-11-22",
+      "summary": "docs/weekly/week-04_2026-11-16_to_2026-11-22/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-11-16",
+          "task": "Analyze company recruitment and student selection",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-16.md",
+          "files": [
+            "src/placement/recruiters.py",
+            "reports/supplied/companies.csv"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-17",
+          "task": "Evaluate recruiter activity and job opportunities",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-17.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-18",
+          "task": "Analyze drive registrations and participation",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-18.md",
+          "files": [
+            "reports/supplied/drives.csv"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-19",
+          "task": "Examine interview, shortlist and selection trends",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-19.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-20",
+          "task": "Analyze average and highest salary packages",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-20.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-21",
+          "task": "Compare companies, departments and placement drives",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-21.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-22",
+          "task": "Prepare recruiter and drive analytics report",
+          "note": "docs/weekly/week-04_2026-11-16_to_2026-11-22/2026-11-22.md",
+          "files": [
+            "reports/supplied/03-recruiter-drive-analysis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "Placement KPIs and Performance Reporting",
+      "start": "2026-11-23",
+      "end": "2026-11-29",
+      "branch": "week-05_2026-11-23_to_2026-11-29",
+      "summary": "docs/weekly/week-05_2026-11-23_to_2026-11-29/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-11-23",
+          "task": "Define placement percentage and supporting metrics",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-23.md",
+          "files": [
+            "src/placement/reports.py",
+            "src/placement/validate.py",
+            "src/placement/supplied.py"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-24",
+          "task": "Calculate department placement percentages",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-24.md",
+          "files": [
+            "reports/supplied/departments.csv"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-25",
+          "task": "Analyze company student selection rates",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-25.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-26",
+          "task": "Calculate drive participation and selection KPIs",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-26.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-27",
+          "task": "Analyze average and highest available salaries",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-27.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-11-28",
+          "task": "Identify unplaced students and follow-up insights",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-28.md",
+          "files": [
+            "reports/supplied/follow_up.csv"
+          ]
+        },
+        {
+          "assigned_date": "2026-11-29",
+          "task": "Consolidate placement KPIs and performance report",
+          "note": "docs/weekly/week-05_2026-11-23_to_2026-11-29/2026-11-29.md",
+          "files": [
+            "reports/supplied/04-placement-performance.md",
+            "reports/supplied/history.csv",
+            "reports/supplied/analysis.json"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "Dashboard and Data Visualization",
+      "start": "2026-11-30",
+      "end": "2026-12-06",
+      "branch": "week-06_2026-11-30_to_2026-12-06",
+      "summary": "docs/weekly/week-06_2026-11-30_to_2026-12-06/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-11-30",
+          "task": "Plan placement dashboard structure",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-11-30.md",
+          "files": [
+            "src/placement/dashboard.py",
+            "src/placement/dashboard.html"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-01",
+          "task": "Develop department charts and KPI summaries",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-12-01.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-12-02",
+          "task": "Create company selection visualizations",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-12-02.md",
+          "files": [
+            "src/placement/supplied-dashboard.js"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-03",
+          "task": "Develop drive participation and selection charts",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-12-03.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-12-04",
+          "task": "Add salary and unplaced student analysis",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-12-04.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-12-05",
+          "task": "Integrate consolidated dashboard and reports",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-12-05.md",
+          "files": [
+            "src/placement/cli.py",
+            "src/placement/__main__.py",
+            "reports/supplied/dashboard.html",
+            "reports/sample"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-06",
+          "task": "Review dashboard clarity, accuracy and consistency",
+          "note": "docs/weekly/week-06_2026-11-30_to_2026-12-06/2026-12-06.md",
+          "files": [
+            "docs/screenshots"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Validation and Analytical Insights",
+      "start": "2026-12-07",
+      "end": "2026-12-13",
+      "branch": "week-07_2026-12-07_to_2026-12-13",
+      "summary": "docs/weekly/week-07_2026-12-07_to_2026-12-13/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-12-07",
+          "task": "Validate metrics and visualizations against sources",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-07.md",
+          "files": [
+            "tests/test_analytics.py",
+            "tests/test_supplied.py",
+            "tests/browser-smoke.mjs"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-08",
+          "task": "Review missing data and analytical limitations",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-08.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-12-09",
+          "task": "Identify factors associated with recorded placement",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-09.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-12-10",
+          "task": "Develop placement improvement recommendations",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-10.md",
+          "files": [
+            "reports/supplied/05-validation-insights.md"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-11",
+          "task": "Prepare insights for placement cell and administration",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-11.md",
+          "files": []
+        },
+        {
+          "assigned_date": "2026-12-12",
+          "task": "Incorporate validation and finalize analytical reports",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-12.md",
+          "files": [
+            "requirements-dev.txt",
+            ".github/workflows/analytics.yml",
+            ".github/workflows/weekly.yml",
+            "docs/validation.md"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-13",
+          "task": "Review dashboard, KPIs and recommendations",
+          "note": "docs/weekly/week-07_2026-12-07_to_2026-12-13/2026-12-13.md",
+          "files": []
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Final Documentation and Project Submission",
+      "start": "2026-12-14",
+      "end": "2026-12-15",
+      "branch": "week-08_2026-12-14_to_2026-12-15",
+      "summary": "docs/weekly/week-08_2026-12-14_to_2026-12-15/README.md",
+      "days": [
+        {
+          "assigned_date": "2026-12-14",
+          "task": "Prepare final methodology, findings, visuals and recommendations",
+          "note": "docs/weekly/week-08_2026-12-14_to_2026-12-15/2026-12-14.md",
+          "files": [
+            "reports/supplied/06-final-report.md"
+          ]
+        },
+        {
+          "assigned_date": "2026-12-15",
+          "task": "Package final analysis, dashboard, supporting files and summary",
+          "note": "docs/weekly/week-08_2026-12-14_to_2026-12-15/2026-12-15.md",
+          "files": [
+            "README.md",
+            "scripts/weekly_delivery.py",
+            "docs/delivery-plan.json",
+            "submission-manifest.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
