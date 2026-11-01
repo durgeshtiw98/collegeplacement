@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "college-placement-analytics"
+version = "1.0.0"
+description = "Reproducible placement analytics, quality checks, reports and an offline dashboard"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+placement = "placement.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+placement = ["dashboard.html", "supplied-dashboard.js"]
+
+[tool.coverage.run]
+source = ["src/placement"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
