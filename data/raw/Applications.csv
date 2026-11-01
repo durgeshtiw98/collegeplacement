@@ -1,0 +1,16 @@
+Application_ID,Student_ID,Job_ID,Application_Date,Application_Status,Interview_Status,Selection_Result,Placement_Status
+APP001,STU001,JOB001,2026-10-27,Shortlisted,Interviewed,Selected,Placed
+APP002,STU002,JOB002,2026-10-28,Shortlisted,Interviewed,Selected,Placed
+APP003,STU003,JOB001,2026-10-29,Applied,Not Scheduled,Not Selected,Not Placed
+APP004,STU004,JOB002,2026-10-30,Shortlisted,Interviewed,Selected,Placed
+APP005,STU005,JOB003,2026-11-02,Applied,Interviewed,Not Selected,Not Placed
+APP006,STU006,JOB004,2026-11-03,Shortlisted,Interviewed,Selected,Placed
+APP007,STU007,JOB005,2026-11-04,Applied,Not Scheduled,Pending,Not Placed
+APP008,STU008,JOB006,2026-11-05,Shortlisted,Interviewed,Not Selected,Not Placed
+APP009,STU009,JOB003,2026-11-06,Applied,Interviewed,Not Selected,Not Placed
+APP010,STU010,JOB002,2026-11-09,Shortlisted,Interviewed,Selected,Placed
+APP011,STU011,JOB004,2026-11-10,Shortlisted,Interviewed,Selected,Placed
+APP012,STU012,JOB006,2026-11-11,Applied,Not Scheduled,Pending,Not Placed
+APP013,STU001,JOB002,2026-11-12,Shortlisted,Interviewed,Selected,Placed
+APP014,STU003,JOB006,2026-11-13,Applied,Interviewed,Not Selected,Not Placed
+APP015,STU008,JOB001,2026-11-16,Shortlisted,Interviewed,Selected,Placed
