@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600" role="img" aria-labelledby="title desc">
+<title id="title">Placement EDA: supplied synthetic workbook</title>
+<desc id="desc">Department and skills placement percentages use separate overlapping groups. Demonstration data only.</desc>
+<rect width="1120" height="600" fill="#f4f6f8"/>
+<text x="40" y="48" font-family="sans-serif" font-size="24" fill="#192a38">Placement patterns in the supplied example</text>
+<text x="40" y="80" font-family="sans-serif" font-size="13" fill="#657582">SYNTHETIC DEMO · Durgesh Tiwari · Descriptive associations only</text>
+<rect x="40" y="110" width="490" height="420" rx="10" fill="#fff" stroke="#e4e9ed"/><text x="60" y="145" font-family="sans-serif" font-size="16" fill="#192a38">Department: eligible placement</text>
+<text x="60" y="185" font-family="sans-serif" font-size="11" fill="#192a38">Computer Science</text>
+<rect x="225" y="174" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="225" y="174" width="240.0" height="13" rx="3" fill="#087d63"/>
+<text x="475" y="185" font-family="sans-serif" font-size="11" fill="#192a38">100.0%</text>
+<text x="60" y="228" font-family="sans-serif" font-size="11" fill="#192a38">Electronics</text>
+<rect x="225" y="217" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="225" y="217" width="79.99199999999999" height="13" rx="3" fill="#087d63"/>
+<text x="475" y="228" font-family="sans-serif" font-size="11" fill="#192a38">33.33%</text>
+<text x="60" y="271" font-family="sans-serif" font-size="11" fill="#192a38">Information Technology</text>
+<rect x="225" y="260" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="225" y="260" width="240.0" height="13" rx="3" fill="#087d63"/>
+<text x="475" y="271" font-family="sans-serif" font-size="11" fill="#192a38">100.0%</text>
+<text x="60" y="314" font-family="sans-serif" font-size="11" fill="#192a38">Mechanical</text>
+<rect x="225" y="303" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="225" y="303" width="0.0" height="13" rx="3" fill="#087d63"/>
+<text x="475" y="314" font-family="sans-serif" font-size="11" fill="#192a38">0.0%</text>
+<rect x="590" y="110" width="490" height="420" rx="10" fill="#fff" stroke="#e4e9ed"/><text x="610" y="145" font-family="sans-serif" font-size="16" fill="#192a38">Skills: all-student placement</text>
+<text x="610" y="185" font-family="sans-serif" font-size="11" fill="#192a38">excel</text>
+<rect x="775" y="174" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="775" y="174" width="0.0" height="13" rx="3" fill="#087d63"/>
+<text x="1025" y="185" font-family="sans-serif" font-size="11" fill="#192a38">0.0%</text>
+<text x="610" y="228" font-family="sans-serif" font-size="11" fill="#192a38">machine learning</text>
+<rect x="775" y="217" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="775" y="217" width="240.0" height="13" rx="3" fill="#087d63"/>
+<text x="1025" y="228" font-family="sans-serif" font-size="11" fill="#192a38">100.0%</text>
+<text x="610" y="271" font-family="sans-serif" font-size="11" fill="#192a38">power bi</text>
+<rect x="775" y="260" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="775" y="260" width="180.0" height="13" rx="3" fill="#087d63"/>
+<text x="1025" y="271" font-family="sans-serif" font-size="11" fill="#192a38">75.0%</text>
+<text x="610" y="314" font-family="sans-serif" font-size="11" fill="#192a38">python</text>
+<rect x="775" y="303" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="775" y="303" width="186.672" height="13" rx="3" fill="#087d63"/>
+<text x="1025" y="314" font-family="sans-serif" font-size="11" fill="#192a38">77.78%</text>
+<text x="610" y="357" font-family="sans-serif" font-size="11" fill="#192a38">sql</text>
+<rect x="775" y="346" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="775" y="346" width="210.0" height="13" rx="3" fill="#087d63"/>
+<text x="1025" y="357" font-family="sans-serif" font-size="11" fill="#192a38">87.5%</text>
+<text x="610" y="400" font-family="sans-serif" font-size="11" fill="#192a38">statistics</text>
+<rect x="775" y="389" width="240" height="13" rx="3" fill="#edf1f2"/>
+<rect x="775" y="389" width="60.0" height="13" rx="3" fill="#087d63"/>
+<text x="1025" y="400" font-family="sans-serif" font-size="11" fill="#192a38">25.0%</text>
+<text x="40" y="565" font-family="sans-serif" font-size="12" fill="#657582">Skills overlap. Explicit source eligibility is used for departments. Historical cohorts are separate.</text></svg>
