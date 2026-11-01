@@ -15,3 +15,4 @@ reports/generated/
 *.sqlite3
 *.db
 .pytest_cache/
+_site/

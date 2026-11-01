@@ -10,6 +10,8 @@ Analytics implementation covering requirements, cleaning, EDA, recruiter/drive a
 
 ## Open the deliverables
 
+**Live dashboard:** [durgeshtiw98.github.io/collegeplacement](https://durgeshtiw98.github.io/collegeplacement/). Use **Download reports** for the reports, CSV summaries and JSON audit files.
+
 Download the repository and open [the dashboard](reports/supplied/dashboard.html) in a browser. It works offline with department, cohort and company filters, separate aggregate-drive filtering, recruitment views, student search, CSV downloads and printing. GitHub source view does not execute HTML.
 
 Read the [final report](reports/supplied/06-final-report.md), [requirements](docs/data-requirements.md) and [methodology](docs/methodology.md). Original source exports are preserved in data/raw; cleaned synthetic CSVs and their audit are in data/cleaned-supplied.
@@ -96,3 +98,9 @@ The primary assignment reports use the original supplied workbook, not the addit
 ## Existing Word reporting
 
 The original pipeline, Word template and scheduled Thursday/Friday/final workflow remain available. Install requirements.txt for Word report generation. The scheduled workflow also produces the new supplied-source reports. Scheduling depends on GitHub Actions availability; no future run is claimed to have occurred.
+
+## GitHub Pages deployment
+
+The `Deploy dashboard to GitHub Pages` workflow regenerates the supplied-data analysis and publishes the static dashboard and report downloads when relevant files change on main. It can also be run manually from Actions. The eight weekly branches remain cumulative assignment checkpoints.
+
+To package the website locally, run `python3 scripts/build_pages.py` after generating the supplied reports. Output goes to the ignored `_site/` directory. GitHub Pages hosts the HTML/JavaScript and report files; the Python analysis runs during the Actions build.
