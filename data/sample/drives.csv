@@ -1,0 +1,19 @@
+drive_id,company_id,recruiter_id,drive_date,job_role,min_cgpa
+D001,C01,R01,2026-07-06,Graduate trainee,6.0
+D002,C02,R02,2026-07-11,Graduate trainee,6.0
+D003,C03,R03,2026-07-16,Graduate trainee,6.0
+D004,C04,R04,2026-07-21,Graduate trainee,6.0
+D005,C05,R05,2026-07-26,Graduate trainee,6.0
+D006,C06,R06,2026-07-31,Graduate trainee,6.0
+D007,C01,R01,2026-08-05,Graduate trainee,6.0
+D008,C02,R02,2026-08-10,Graduate trainee,6.0
+D009,C03,R03,2026-08-15,Graduate trainee,6.0
+D010,C04,R04,2026-08-20,Graduate trainee,6.0
+D011,C05,R05,2026-08-25,Graduate trainee,6.0
+D012,C06,R06,2026-08-30,Graduate trainee,6.0
+D013,C01,R01,2026-09-04,Graduate trainee,6.0
+D014,C02,R02,2026-09-09,Graduate trainee,6.0
+D015,C03,R03,2026-09-14,Graduate trainee,6.0
+D016,C04,R04,2026-09-19,Graduate trainee,6.0
+D017,C05,R05,2026-09-24,Graduate trainee,6.0
+D018,C06,R06,2026-09-29,Graduate trainee,6.0
