@@ -178,7 +178,7 @@ def run(source, output, as_of):
               '- Small synthetic samples cannot establish causal placement factors or real trends.',
               '- Student-level drive data and reliable offer/job identifiers are needed for deeper joins.',
               '- Friday snapshots exclude later weekend work. See docs/phase1.md for scheduled activities.',
-              '- Automated checks ran; no manual review is implied. Standard report format pending a supplied template.']
+              '- Automated checks ran; no manual review is implied. The accompanying Word status report uses the supplied template.']
     (output/'report.md').write_text('\n'.join(report)+'\n')
     sections = []
     for label, key in [('Department placement', 'departments'), ('Company selection', 'companies'), ('Drive participation', 'drives')]:
@@ -195,6 +195,8 @@ def run(source, output, as_of):
     page += ''.join(sections)
     page += '<h2>Report and limitations</h2><pre>'+html.escape('\n'.join(report))+'</pre></html>'
     (output/'dashboard.html').write_text(page)
+    from weekly_report import generate
+    generate(output, as_of, metrics, issues)
     return metrics
 
 
