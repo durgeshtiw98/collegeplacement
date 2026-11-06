@@ -1,0 +1,152 @@
+{
+  "source_files": {
+    "Student_Data.csv": {
+      "sha256": "a0d141b7cb79089207939cc30776011ef894b573e26bf1c5915a78b074e565df"
+    },
+    "Company_Data.csv": {
+      "sha256": "167e817c5351f0a1e1f65f16f0a3e7c93ad80e976d8ab0036780e876db0dfd4e"
+    },
+    "Job_Postings.csv": {
+      "sha256": "f44d9bd9c8d69a39b310055b8033cd508061065e203bbbdec2a02a49950300f4"
+    },
+    "Applications.csv": {
+      "sha256": "21665befbd1a6e1147cb59ef1203e197abdf1420a30f33f9cb7f8442af9bb174"
+    },
+    "Placement_Drives.csv": {
+      "sha256": "f05f3417fe9bfb0d610c1c7e47e3c8b07a5f35535bb60ea810eeb5d1fdff9aa3"
+    },
+    "Offers.csv": {
+      "sha256": "af28ce56e5c0fec0172b4801cab4abcf5c97b48e681758f0acebcdfb2e2f6c21"
+    },
+    "Historical_Placements.csv": {
+      "sha256": "890893d213dc9c61e32a0e62dd380843110dba00b7970b1241ba28889d353284"
+    },
+    "Read_Me.csv": {
+      "sha256": "ccbaee55b931ba434e9eed2445e9cf26093959483128962c835018b72472fb9c"
+    }
+  },
+  "tables": {
+    "Student_Data": {
+      "source_rows": 12,
+      "clean_rows": 12,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Student_ID": 0,
+        "Anonymized_Student_Label": 0,
+        "Department": 0,
+        "Class_10_Percentage": 0,
+        "Class_12_Percentage": 0,
+        "CGPA": 0,
+        "Skills_and_Certifications": 0,
+        "Graduation_Year": 0,
+        "Eligibility_Status": 0
+      }
+    },
+    "Company_Data": {
+      "source_rows": 5,
+      "clean_rows": 5,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Company_ID": 0,
+        "Company_Name": 0,
+        "Industry": 0,
+        "Recruiter_Verification_Status": 0
+      }
+    },
+    "Job_Postings": {
+      "source_rows": 6,
+      "clean_rows": 6,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Job_ID": 0,
+        "Company_ID": 0,
+        "Job_Role": 0,
+        "Job_Location": 0,
+        "Required_Skills": 0,
+        "Salary_Package_LPA": 0,
+        "Job_Verification_Status": 0
+      }
+    },
+    "Applications": {
+      "source_rows": 15,
+      "clean_rows": 15,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Application_ID": 0,
+        "Student_ID": 0,
+        "Job_ID": 0,
+        "Application_Date": 0,
+        "Application_Status": 0,
+        "Interview_Status": 0,
+        "Selection_Result": 0,
+        "Placement_Status": 0
+      }
+    },
+    "Placement_Drives": {
+      "source_rows": 4,
+      "clean_rows": 4,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Drive_ID": 0,
+        "Company_ID": 0,
+        "Drive_Date": 0,
+        "Eligible_Departments": 0,
+        "Registered_Students": 0,
+        "Attending_Students": 0,
+        "Shortlisted_Students": 0,
+        "Selected_Students": 0
+      }
+    },
+    "Offers": {
+      "source_rows": 7,
+      "clean_rows": 7,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Student_ID": 0,
+        "Company_ID": 0,
+        "Job_Role": 0,
+        "Offered_Salary_LPA": 0,
+        "Offer_Letter_Status": 0,
+        "Joining_Status": 0
+      }
+    },
+    "Historical_Placements": {
+      "source_rows": 6,
+      "clean_rows": 6,
+      "exact_duplicates_removed": 0,
+      "missing_values": {
+        "Academic_Year": 0,
+        "Department": 0,
+        "Eligible_Students": 0,
+        "Placed_Students": 0,
+        "Participating_Companies": 0,
+        "Placement_Drives": 0,
+        "Highest_Package_LPA": 0,
+        "Average_Package_LPA": 0
+      }
+    }
+  },
+  "warnings": [
+    "Applications:11: future demonstration event 2026-11-09; no as-of cutoff applied",
+    "Applications:12: future demonstration event 2026-11-10; no as-of cutoff applied",
+    "Applications:13: future demonstration event 2026-11-11; no as-of cutoff applied",
+    "Applications:14: future demonstration event 2026-11-12; no as-of cutoff applied",
+    "Applications:15: future demonstration event 2026-11-13; no as-of cutoff applied",
+    "Applications:16: future demonstration event 2026-11-16; no as-of cutoff applied",
+    "Placement_Drives:3: future demonstration event 2026-11-12; no as-of cutoff applied",
+    "Placement_Drives:4: future demonstration event 2026-11-18; no as-of cutoff applied",
+    "Placement_Drives:5: future demonstration event 2026-11-24; no as-of cutoff applied",
+    "APP001: selected result retains earlier application status; source fields preserved",
+    "APP002: selected result retains earlier application status; source fields preserved",
+    "APP004: selected result retains earlier application status; source fields preserved",
+    "APP006: selected result retains earlier application status; source fields preserved",
+    "APP010: selected result retains earlier application status; source fields preserved",
+    "APP011: selected result retains earlier application status; source fields preserved",
+    "APP013: selected result retains earlier application status; source fields preserved",
+    "APP015: selected result retains earlier application status; source fields preserved",
+    "No reliable offer-to-application/Job_ID or application-to-drive key: these joins are not performed.",
+    "Drive data is aggregated; student-level attendance and department filters cannot be inferred.",
+    "Historical summaries use different populations and are not reconciled to the current 12-student example.",
+    "Recruiter verification is available; individual recruiter activity and timestamps are unavailable."
+  ]
+}

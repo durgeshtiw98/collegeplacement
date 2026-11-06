@@ -1,0 +1,7 @@
+Job_ID,Company_ID,Job_Role,Job_Location,Required_Skills,Salary_Package_LPA,Job_Verification_Status
+JOB001,COMP001,Data Analyst,Goa,Python; SQL; Excel,4.5,Verified
+JOB002,COMP002,Junior Data Scientist,Bengaluru,Python; SQL; Machine Learning,6.0,Verified
+JOB003,COMP003,Software Engineer,Pune,Programming; SQL,5.5,Verified
+JOB004,COMP001,Business Analyst,Remote,Excel; SQL; Communication,4.0,Verified
+JOB005,COMP004,Data Engineer,Hyderabad,Python; SQL; ETL,7.0,Pending Review
+JOB006,COMP005,Reporting Analyst,Remote,Excel; Power BI; SQL,4.2,Verified

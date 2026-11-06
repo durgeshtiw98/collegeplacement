@@ -1,0 +1,6 @@
+student_id,department,eligibility,applications,interviews,action
+STU003,Electronics,Eligible,2,1,Review interview feedback and pending decisions
+STU005,Mechanical,Eligible,1,1,Review interview feedback and pending decisions
+STU007,Computer Science,Review Required,1,0,Review eligibility with placement cell
+STU009,Mechanical,Eligible,1,1,Review interview feedback and pending decisions
+STU012,Electronics,Eligible,1,0,Review shortlisting feedback and skills evidence

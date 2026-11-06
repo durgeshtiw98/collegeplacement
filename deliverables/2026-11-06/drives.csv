@@ -1,0 +1,5 @@
+Drive_ID,Company_ID,Drive_Date,Eligible_Departments,Registered_Students,Attending_Students,Shortlisted_Students,Selected_Students,Participation_Percentage,Selection_Percentage
+DRIVE001,COMP001,2026-11-05,Computer Science; Information Technology,8,7,4,2,87.5,28.57
+DRIVE002,COMP002,2026-11-12,Computer Science; Information Technology; Electronics,9,8,5,3,88.89,37.5
+DRIVE003,COMP003,2026-11-18,All eligible departments,10,8,3,1,80.0,12.5
+DRIVE004,COMP005,2026-11-24,All eligible departments,7,6,3,2,85.71,33.33

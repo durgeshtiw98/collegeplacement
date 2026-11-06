@@ -1,0 +1,170 @@
+{
+  "synthetic_data": true,
+  "student_count": 12,
+  "eligible_students": 11,
+  "placed_eligible_students": 7,
+  "placement_percentage": 63.64,
+  "offer_count": 7,
+  "valid_salary_count": 7,
+  "average_offer_salary_lpa": 5.0,
+  "highest_offer_salary_lpa": 6.0,
+  "departments": [
+    {
+      "Department": "Computer Science",
+      "Eligible": 3,
+      "Placed": 3,
+      "Placement_Percentage": 100.0
+    },
+    {
+      "Department": "Electronics",
+      "Eligible": 3,
+      "Placed": 1,
+      "Placement_Percentage": 33.33
+    },
+    {
+      "Department": "Information Technology",
+      "Eligible": 3,
+      "Placed": 3,
+      "Placement_Percentage": 100.0
+    },
+    {
+      "Department": "Mechanical",
+      "Eligible": 2,
+      "Placed": 0,
+      "Placement_Percentage": 0.0
+    }
+  ],
+  "companies": [
+    {
+      "Company": "Example Analytics Ltd.",
+      "Applications": 5,
+      "Selected_Applications": 4,
+      "Selection_Percentage": 80.0
+    },
+    {
+      "Company": "Example AI Labs",
+      "Applications": 4,
+      "Selected_Applications": 4,
+      "Selection_Percentage": 100.0
+    },
+    {
+      "Company": "Example Software Co.",
+      "Applications": 2,
+      "Selected_Applications": 0,
+      "Selection_Percentage": 0.0
+    },
+    {
+      "Company": "Example Data Systems",
+      "Applications": 1,
+      "Selected_Applications": 0,
+      "Selection_Percentage": 0.0
+    },
+    {
+      "Company": "Example Reporting Group",
+      "Applications": 3,
+      "Selected_Applications": 0,
+      "Selection_Percentage": 0.0
+    }
+  ],
+  "drives": [
+    {
+      "Drive_ID": "DRIVE001",
+      "Company_ID": "COMP001",
+      "Drive_Date": "2026-11-05",
+      "Eligible_Departments": "Computer Science; Information Technology",
+      "Registered_Students": "8",
+      "Attending_Students": "7",
+      "Shortlisted_Students": "4",
+      "Selected_Students": "2",
+      "Participation_Percentage": 87.5,
+      "Selection_Percentage": 28.57
+    },
+    {
+      "Drive_ID": "DRIVE002",
+      "Company_ID": "COMP002",
+      "Drive_Date": "2026-11-12",
+      "Eligible_Departments": "Computer Science; Information Technology; Electronics",
+      "Registered_Students": "9",
+      "Attending_Students": "8",
+      "Shortlisted_Students": "5",
+      "Selected_Students": "3",
+      "Participation_Percentage": 88.89,
+      "Selection_Percentage": 37.5
+    },
+    {
+      "Drive_ID": "DRIVE003",
+      "Company_ID": "COMP003",
+      "Drive_Date": "2026-11-18",
+      "Eligible_Departments": "All eligible departments",
+      "Registered_Students": "10",
+      "Attending_Students": "8",
+      "Shortlisted_Students": "3",
+      "Selected_Students": "1",
+      "Participation_Percentage": 80.0,
+      "Selection_Percentage": 12.5
+    },
+    {
+      "Drive_ID": "DRIVE004",
+      "Company_ID": "COMP005",
+      "Drive_Date": "2026-11-24",
+      "Eligible_Departments": "All eligible departments",
+      "Registered_Students": "7",
+      "Attending_Students": "6",
+      "Shortlisted_Students": "3",
+      "Selected_Students": "2",
+      "Participation_Percentage": 85.71,
+      "Selection_Percentage": 33.33
+    }
+  ],
+  "application_statuses": {
+    "Shortlisted": 9,
+    "Applied": 6
+  },
+  "unplaced_eligible_students": [
+    {
+      "Student_ID": "STU003",
+      "Anonymized_Student_Label": "Student 003",
+      "Department": "Electronics",
+      "Class_10_Percentage": "76",
+      "Class_12_Percentage": "81",
+      "CGPA": "7.5",
+      "Skills_and_Certifications": "Python; Excel; Statistics",
+      "Graduation_Year": "2026",
+      "Eligibility_Status": "Eligible"
+    },
+    {
+      "Student_ID": "STU005",
+      "Anonymized_Student_Label": "Student 005",
+      "Department": "Mechanical",
+      "Class_10_Percentage": "72",
+      "Class_12_Percentage": "75",
+      "CGPA": "7",
+      "Skills_and_Certifications": "Excel; SQL; Statistics",
+      "Graduation_Year": "2026",
+      "Eligibility_Status": "Eligible"
+    },
+    {
+      "Student_ID": "STU009",
+      "Anonymized_Student_Label": "Student 009",
+      "Department": "Mechanical",
+      "Class_10_Percentage": "77",
+      "Class_12_Percentage": "70",
+      "CGPA": "7.2",
+      "Skills_and_Certifications": "Excel; Power BI",
+      "Graduation_Year": "2026",
+      "Eligibility_Status": "Eligible"
+    },
+    {
+      "Student_ID": "STU012",
+      "Anonymized_Student_Label": "Student 012",
+      "Department": "Electronics",
+      "Class_10_Percentage": "74",
+      "Class_12_Percentage": "78",
+      "CGPA": "7.1",
+      "Skills_and_Certifications": "Excel; Statistics",
+      "Graduation_Year": "2026",
+      "Eligibility_Status": "Eligible"
+    }
+  ],
+  "as_of": "2026-11-06"
+}

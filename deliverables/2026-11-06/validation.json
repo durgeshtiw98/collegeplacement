@@ -1,0 +1,22 @@
+{
+  "warnings": [
+    "APP001: selected result with earlier-stage application status; statuses retained",
+    "APP002: selected result with earlier-stage application status; statuses retained",
+    "APP004: selected result with earlier-stage application status; statuses retained",
+    "APP006: selected result with earlier-stage application status; statuses retained",
+    "APP010: selected result with earlier-stage application status; statuses retained",
+    "APP011: selected result with earlier-stage application status; statuses retained",
+    "APP013: selected result with earlier-stage application status; statuses retained",
+    "APP015: selected result with earlier-stage application status; statuses retained",
+    "Applications: synthetic Application_Date=2026-11-09 is later than generation date; included as demonstration input",
+    "Applications: synthetic Application_Date=2026-11-10 is later than generation date; included as demonstration input",
+    "Applications: synthetic Application_Date=2026-11-11 is later than generation date; included as demonstration input",
+    "Applications: synthetic Application_Date=2026-11-12 is later than generation date; included as demonstration input",
+    "Applications: synthetic Application_Date=2026-11-13 is later than generation date; included as demonstration input",
+    "Applications: synthetic Application_Date=2026-11-16 is later than generation date; included as demonstration input",
+    "Placement_Drives: synthetic Drive_Date=2026-11-12 is later than generation date; included as demonstration input",
+    "Placement_Drives: synthetic Drive_Date=2026-11-18 is later than generation date; included as demonstration input",
+    "Placement_Drives: synthetic Drive_Date=2026-11-24 is later than generation date; included as demonstration input"
+  ],
+  "errors": []
+}
