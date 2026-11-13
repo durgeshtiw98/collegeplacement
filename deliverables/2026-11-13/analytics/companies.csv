@@ -1,0 +1,6 @@
+Company_ID,Company_Name,Industry,Recruiter_Verification_Status,applications,selected_applications,unique_selected_students,selection_pct
+COMP001,Example Analytics Ltd.,Analytics,Verified,5,4,4,80.0
+COMP002,Example AI Labs,Technology,Verified,4,4,4,100.0
+COMP003,Example Software Co.,Software,Verified,2,0,0,0.0
+COMP004,Example Data Systems,Technology,Pending Review,1,0,0,0.0
+COMP005,Example Reporting Group,Analytics,Verified,3,0,0,0.0

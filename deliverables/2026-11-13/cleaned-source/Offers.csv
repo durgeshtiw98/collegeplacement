@@ -1,0 +1,8 @@
+Student_ID,Company_ID,Job_Role,Offered_Salary_LPA,Offer_Letter_Status,Joining_Status
+STU001,COMP001,Data Analyst,4.5,Issued,Joined
+STU002,COMP002,Junior Data Scientist,6.0,Issued,Pending
+STU004,COMP002,Junior Data Scientist,6.0,Issued,Joined
+STU006,COMP001,Business Analyst,4.0,Issued,Joined
+STU010,COMP002,Junior Data Scientist,6.0,Issued,Pending
+STU011,COMP001,Business Analyst,4.0,Issued,Joined
+STU008,COMP001,Data Analyst,4.5,Issued,Pending

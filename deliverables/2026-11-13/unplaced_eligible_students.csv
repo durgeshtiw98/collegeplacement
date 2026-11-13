@@ -1,0 +1,5 @@
+Student_ID,Anonymized_Student_Label,Department,Class_10_Percentage,Class_12_Percentage,CGPA,Skills_and_Certifications,Graduation_Year,Eligibility_Status
+STU003,Student 003,Electronics,76,81,7.5,Python; Excel; Statistics,2026,Eligible
+STU005,Student 005,Mechanical,72,75,7,Excel; SQL; Statistics,2026,Eligible
+STU009,Student 009,Mechanical,77,70,7.2,Excel; Power BI,2026,Eligible
+STU012,Student 012,Electronics,74,78,7.1,Excel; Statistics,2026,Eligible
