@@ -1,0 +1,13 @@
+Student_ID,Anonymized_Student_Label,Department,Class_10_Percentage,Class_12_Percentage,CGPA,Skills_and_Certifications,Graduation_Year,Eligibility_Status
+STU001,Student 001,Computer Science,88,85,8.6,Python; SQL; Machine Learning,2026,Eligible
+STU002,Student 002,Information Technology,82,79,8.1,Python; SQL; Power BI,2026,Eligible
+STU003,Student 003,Electronics,76,81,7.5,Python; Excel; Statistics,2026,Eligible
+STU004,Student 004,Computer Science,91,89,9.1,Python; SQL; Machine Learning,2026,Eligible
+STU005,Student 005,Mechanical,72,75,7,Excel; SQL; Statistics,2026,Eligible
+STU006,Student 006,Information Technology,85,87,8.4,Python; Power BI; SQL,2026,Eligible
+STU007,Student 007,Computer Science,68,74,6.8,Python; Excel,2026,Review Required
+STU008,Student 008,Electronics,80,83,7.8,Python; SQL; Statistics,2026,Eligible
+STU009,Student 009,Mechanical,77,70,7.2,Excel; Power BI,2026,Eligible
+STU010,Student 010,Information Technology,89,86,8.8,Python; SQL; Machine Learning,2026,Eligible
+STU011,Student 011,Computer Science,84,82,8.2,Python; SQL; Power BI,2026,Eligible
+STU012,Student 012,Electronics,74,78,7.1,Excel; Statistics,2026,Eligible

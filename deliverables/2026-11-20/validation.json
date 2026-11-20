@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "APP001: selected result with earlier-stage application status; statuses retained",
+    "APP002: selected result with earlier-stage application status; statuses retained",
+    "APP004: selected result with earlier-stage application status; statuses retained",
+    "APP006: selected result with earlier-stage application status; statuses retained",
+    "APP010: selected result with earlier-stage application status; statuses retained",
+    "APP011: selected result with earlier-stage application status; statuses retained",
+    "APP013: selected result with earlier-stage application status; statuses retained",
+    "APP015: selected result with earlier-stage application status; statuses retained",
+    "Placement_Drives: synthetic Drive_Date=2026-11-24 is later than generation date; included as demonstration input"
+  ],
+  "errors": []
+}
